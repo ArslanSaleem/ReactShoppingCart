@@ -1,5 +1,9 @@
 # Getting Started with React Shopping Cart
 
+[![Node](https://img.shields.io/badge/node-14.17.0-green.svg)](https://nodejs.org/en/download/)
+[![npm](https://img.shields.io/badge/npm-6.14.13-green.svg)](https://nodejs.org/en/download/)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ArslanSaleem/ReactShoppingCart/blob/main/LICENSE)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

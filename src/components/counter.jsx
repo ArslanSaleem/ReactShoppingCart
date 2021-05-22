@@ -8,12 +8,14 @@ class Counter extends Component {
     };
 
     render() { 
+        // Argument destrucutring
+        const { counter, onDelete, onIncrement } = this.props;
         return (
             <React.Fragment>
-                <h4> Counter #{ this.props.counter.id } </h4>
-                <span className="badge badge-primary m-2"> { this.props.counter.value } </span>
-                <button onClick={() => this.props.onIncrement(this.props.counter)} className="btn btn-primary"> Increment </button>
-                <button onClick={() => this.props.onDelete(this.props.counter.id) } className="btn btn-danger bt-sm m-2"> Delete </button>
+                <h4> Counter #{ counter.id } </h4>
+                <span className="badge badge-primary m-2"> { counter.value } </span>
+                <button onClick={() => onIncrement(counter)} className="btn btn-primary"> Increment </button>
+                <button onClick={() => onDelete(counter.id) } className="btn btn-danger bt-sm m-2"> Delete </button>
             </React.Fragment>
         );
     }
